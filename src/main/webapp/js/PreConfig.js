@@ -27,10 +27,21 @@ window.DRAWIO_CONFIG = {
                             "url": "https://timretout.github.io/drawio/libs/brands.xml"
                         }
                     ]
+                },
+                {
+                    "id": "gcp2021-icons",
+                    "title": { "main": "GCP Icons" },
+                    "desc": { "main": "Collection of GCP product icons" },
+                    "libs": [
+                        {
+                            "title": { "main": "Compute"},
+                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-compute.xml"
+                        }
+                    ]
                 }
             ]
         }
     ],
-    "defaultLibraries": "gcp2021-brands;general;uml;er;bpmn;flowchart;basic;arrows2"
+    "defaultLibraries": "gcp2021-brands;gcp2021-icons"
 };
 urlParams['sync'] = 'manual';
