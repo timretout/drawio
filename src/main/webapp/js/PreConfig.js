@@ -11,6 +11,25 @@ window.DRAWIO_LIGHTBOX_URL = null; // Replace with your lightbox URL, eg. https:
 window.DRAW_MATH_URL = 'math';
 //window.DRAWIO_CONFIG = null; // Replace with your custom draw.io configurations. For more details, https://www.diagrams.net/doc/faq/configure-diagram-editor
 window.DRAWIO_CONFIG = {
-    "customFonts": [{"fontFamily": "Roboto", "fontUrl": "https://fonts.googleapis.com/css?family=Roboto"}]
+    "customFonts": [{"fontFamily": "Roboto", "fontUrl": "https://fonts.googleapis.com/css?family=Roboto"}],
+    "libraries": [
+        {
+            "title": { "main": "GCP 2021" },
+            "entries": [
+                {
+                    "id": "gcp2021-brands",
+                    "title": { "main": "Brand Logos" },
+                    "desc": { "main": "Collection of brand logos" },
+                    "libs": [
+                        {
+                            "title": { "main": "Brand Logos"},
+                            "url": "/drawio/libs/brands.xml"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "defaultLibraries": "gcp2021-brands;general;uml;er;bpmn;flowchart;basic;arrows2"
 };
 urlParams['sync'] = 'manual';
