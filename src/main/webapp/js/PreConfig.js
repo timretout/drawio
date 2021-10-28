@@ -10,6 +10,7 @@ window.DRAWIO_VIEWER_URL = null; // Replace your path to the viewer js, e.g. htt
 window.DRAWIO_LIGHTBOX_URL = null; // Replace with your lightbox URL, eg. https://www.example.com
 window.DRAW_MATH_URL = 'math';
 //window.DRAWIO_CONFIG = null; // Replace with your custom draw.io configurations. For more details, https://www.diagrams.net/doc/faq/configure-diagram-editor
+window.PROXY_URL = "https://viewer.diagrams.net/proxy";
 window.DRAWIO_CONFIG = {
     "customFonts": [{"fontFamily": "Roboto", "fontUrl": "https://fonts.googleapis.com/css?family=Roboto"}],
     "libraries": [
@@ -23,7 +24,7 @@ window.DRAWIO_CONFIG = {
                     "libs": [
                         {
                             "title": { "main": "Brand Logos"},
-                            "url": "/drawio/libs/brands.xml"
+                            "url": "https://timretout.github.io/drawio/libs/brands.xml"
                         }
                     ]
                 }
