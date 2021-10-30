@@ -42,10 +42,21 @@ window.DRAWIO_CONFIG = {
                             "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-all.xml"
                         }
                     ]
+	        	},
+                {
+                    "id": "material-icons",
+                    "title": { "main": "Material Icons" },
+                    "desc": { "main": "Collection of Material Design icons" },
+                    "libs": [
+                        {
+                            "title": { "main": "Material Icons"},
+                            "url": "https://timretout.github.io/drawio/libs/material-icons.xml"
+                        }
+                    ]
 	        	}
             ]
         }
     ],
-    "defaultLibraries": "gcp2021-general;gcp2021-icons"
+    "defaultLibraries": "gcp2021-general;gcp2021-icons;material-icons"
 };
 urlParams['sync'] = 'manual';
