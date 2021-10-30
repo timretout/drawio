@@ -25,6 +25,10 @@ window.DRAWIO_CONFIG = {
                         {
                             "title": { "main": "Brand Logos"},
                             "url": "https://timretout.github.io/drawio/libs/brands.xml"
+                        },
+                        {
+                            "title": { "main": "Diagram Elements"},
+                            "url": "https://timretout.github.io/drawio/libs/gcp2021-diagram-elements.xml"
                         }
                     ]
                 },
@@ -38,86 +42,7 @@ window.DRAWIO_CONFIG = {
                             "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-all.xml"
                         }
                     ]
-		},
-                {
-                    "id": "gcp2021-products",
-                    "title": { "main": "GCP Products" },
-                    "desc": { "main": "Collection of GCP product icons" },
-                    "libs": [
-                        {
-                            "title": { "main": "AI and Machine Learning"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-ai.xml"
-                        },
-                        {
-                            "title": { "main": "API Management"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-api.xml"
-                        },
-                        {
-                            "title": { "main": "Compute"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-compute.xml"
-                        },
-                        {
-                            "title": { "main": "Containers"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-containers.xml"
-                        },
-                        {
-                            "title": { "main": "Data Analytics"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-data.xml"
-                        },
-                        {
-                            "title": { "main": "Databases"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-databases.xml"
-                        },
-                        {
-                            "title": { "main": "Developer Tools"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-developer-tools.xml"
-                        },
-                        {
-                            "title": { "main": "Healthcare and Life Sciences"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-healthcare.xml"
-                        },
-                        {
-                            "title": { "main": "Hybrid and Multicloud"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-hybrid.xml"
-                        },
-                        {
-                            "title": { "main": "Internet of Things (IoT)"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-iot.xml"
-                        },
-                        {
-                            "title": { "main": "Management Tools"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-management.xml"
-                        },
-                        {
-                            "title": { "main": "Media and Gaming"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-media.xml"
-                        },
-                        {
-                            "title": { "main": "Migration"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-migration.xml"
-                        },
-                        {
-                            "title": { "main": "Networking"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-networking.xml"
-                        },
-                        {
-                            "title": { "main": "Operations"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-operations.xml"
-                        },
-                        {
-                            "title": { "main": "Security and Identity"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-security.xml"
-                        },
-                        {
-                            "title": { "main": "Serverless Computing"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-serverless.xml"
-                        },
-                        {
-                            "title": { "main": "Storage"},
-                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-storage.xml"
-                        }
-                    ]
-                }
+	        	}
             ]
         }
     ],
