@@ -31,6 +31,17 @@ window.DRAWIO_CONFIG = {
                 {
                     "id": "gcp2021-icons",
                     "title": { "main": "GCP Icons" },
+                    "desc": { "main": "Collection of GCP icons" },
+                    "libs": [
+                        {
+                            "title": { "main": "GCP Icons"},
+                            "url": "https://timretout.github.io/drawio/libs/gcp2021-icons-all.xml"
+                        }
+                    ]
+		},
+                {
+                    "id": "gcp2021-products",
+                    "title": { "main": "GCP Products" },
                     "desc": { "main": "Collection of GCP product icons" },
                     "libs": [
                         {
